@@ -13,5 +13,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `Changing variables to access dataworkz api`
 
-Go inside src folder and then App.js. You'll find the component `<Chatbot systemId={systemId} llmId={llmId} token={token} baseUrl={baseUrl} enterpriseSearchId={enterpriseSearchId} enterpriseSearchToken={enterpriseSearchToken} enterpriseBaseUrl={enterpriseBaseUrl}/>`.
+Go inside src folder and then App.js. You'll find the component `<Chatbot systemId={systemId} llmId={llmId} token={token} baseUrl={baseUrl} enterpriseSearchId={enterpriseSearchId} enterpriseSearchToken={enterpriseSearchToken} enterpriseBaseUrl={enterpriseBaseUrl} enterpriseMetaDataField={enterpriseMetaDataField} />`.
 You can change the variables as per your requirement.
