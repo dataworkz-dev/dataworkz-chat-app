@@ -43,10 +43,10 @@ You can change the variables as per your requirement. Description of the variabl
 
 # Information about variables
 
-1. token : You will need a Dataworkz API Key to access the Dataworkz RAG QnA Service.  Here are the steps to [generate an API Key](https://docs.dataworkz.com/product-docs/api-key-generation/generate-api-key-in-dataworkz).
+1. token : this is the API key that can be generated using : [generate an API Key](https://docs.dataworkz.com/product-docs/api-key-generation/generate-api-key-in-dataworkz).
    Note: *The API key name has to be unique across all users so please choose a name accordingly.*
-2. systemId : This is the id of the Q&A system you'll be using. You can find this id by using the API to get all Q&A systems. [get all Q&A systems](https://docs.dataworkz.com/product-docs/api#qna-v1-systems).
-3. llmId : This is the id of llm model you'll be using. Each Q&A system has llm models set up. You can find this id by using the API to get all llm models for a specific Q&A system. [get all llm models for a specific Q&A system.](https://docs.dataworkz.com/product-docs/api#qna-v1-systems-systemid-llm-providers).
+2. systemId : This is the ID of the Q&A system you'll be using. You can find this ID by using the API to get all Q&A systems. [get all Q&A systems](https://docs.dataworkz.com/product-docs/api#qna-v1-systems).
+3. llmId : This is the ID of llm model you'll be using. Each Q&A system has llm models set up. You can find this ID by using the API to get all llm models for a specific Q&A system. [get all llm models for a specific Q&A system.](https://docs.dataworkz.com/product-docs/api#qna-v1-systems-systemid-llm-providers).
 4. baseUrl : Url of the dataworkz web application. E.g: `https://ragapps.dataworkz.com/api/qna/v1/systems/`
 5. enterpriseSearchId : This field is similar to systemId. This one is used for the enterprise search.
 6. enterpriseSearchToken : This field is similar to token field. This one is used for enterprise search.
